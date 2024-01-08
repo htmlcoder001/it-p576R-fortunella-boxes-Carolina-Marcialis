@@ -1,0 +1,50 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * brandon-grotesque:
+ *   - http://typekit.com/eulas/0000000000000000000132df
+ *   - http://typekit.com/eulas/0000000000000000000132e0
+ *   - http://typekit.com/eulas/0000000000000000000132e3
+ *   - http://typekit.com/eulas/0000000000000000000132e4
+ *   - http://typekit.com/eulas/0000000000000000000132e1
+ *
+ * © 2009-2023 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-12-02 08:22:38 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url("https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/l?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/d?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/a?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url("https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/l?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/d?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/a?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url("https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/l?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/d?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/a?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url("https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/l?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/d?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/a?primer=5ec506075f5ac1e0f863c0d1be900f79a3a8ead4b8b32c713302da08c551464e&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+.tk-brandon-grotesque { font-family: "brandon-grotesque",sans-serif; }
