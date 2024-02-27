@@ -398,7 +398,7 @@ a.btn:hover {
 }
 
 .comments {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .bred_crumbs {
@@ -614,16 +614,8 @@ footer {
 
 /*formularz */
 
-#content .comments-content .clearfix a img {
+.comments-content .clearfix a img {
 	border-radius: 50%;
-	
-	width: 50px;
-	height: 50px;
-	object-fit: cover;
-}
-
-#content .comments-content ul {
-	margin: 0 auto;
 }
 
 /* prdukt playsment */
@@ -1387,74 +1379,74 @@ h4.ask_about_fill_form {
 	.produkt_placement_main .btn {
 		color: #fff;
 	}
-
+	
 	#content.product_main h1 {
 		padding-top: 80px;
 	}
-
+	
 	.callbox {
 		left: 10px;
 	}
-
+	
 	.right_column {
 		text-align: center;
 	}
-
+	
 	#comment_name {
 		margin-bottom: 20px
 	}
-
+	
 	.logo h1 {
 		font-size: 30px;
 	}
-
+	
 	.form_main input,
 	.form_main select {
 		width: 100%;
 	}
-
+	
 	.menu_rw {
 		display: block;
 	}
-
+	
 	#content h2 {
 		font-size: 24px;
 	}
-
+	
 	.footer_links {
 		display: none;
 	}
-
+	
 	.comments {
 		margin-top: 30px;
 	}
-
+	
 	aside {
 		text-align: center;
 	}
-
+	
 	footer .container {
 		padding: 0px;
 	}
-
+	
 	#date {
 		text-align: left;
 	}
-
+	
 	nav,
 	.bredcroumbs {
 		display: none;
 	}
-
+	
 	#content .images_main img {
 		width: 100%;
 	}
-
+	
 	a.buy-button {
 		text-align: center;
 		width: 90%;
 	}
-
+	
 	a.btn {
 		color: #fff;
 	}
@@ -1464,64 +1456,64 @@ h4.ask_about_fill_form {
 	.logo {
 		text-align: center;
 	}
-
+	
 	.pic_after_before .col-sm-12 {
 		flex: 0 0 100% !important
 	}
-
+	
 	body {
 		font-family: 'Open Sans', sans-serif;
 		background: #ebebeb;
 		font-size: 0.8rem;
 		line-height: 22px;
 	}
-
+	
 	.call_to_action_footer {
 		display: block;
 	}
-
+	
 	#widget {
 		display: none;
 	}
-
+	
 	#content h2 {
 		font-size: 24px;
 	}
-
+	
 	a.btn {
 		color: #2e44a0;
 		font-size: 0.8em;
 	}
-
+	
 	label {
 		width: 100%;
 		text-align: left;
 	}
-
+	
 	.logo h1 {
 		font-size: 28px;
 		letter-spacing: 0px;
 		padding-top: 30px;
 	}
-
+	
 	a.buy-button {
 		text-align: center;
 		width: 100%;
 	}
-
+	
 	#content.product_main h1 {
 		font-size: 24px;
 	}
-
+	
 	#content.product_main h1 span {
 		font-size: 25px;
 		font-weight: 700;
 	}
-
+	
 	.paragraf_main {
 		margin-left: 10px;
 	}
-
+	
 	.opinion_main {
 		margin: 10px 0px;
 	}
@@ -1691,7 +1683,7 @@ header h1 {
 	font-size: 66px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-
+	
 }
 
 .action-bar {
@@ -1720,19 +1712,19 @@ span.main-cta {
 	header h1 {
 		font-size: 30px;
 	}
-
+	
 	.pic_after_before {
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-direction: row;
 		flex-direction: row;
 	}
-
+	
 	.pic_after_before .col-sm-12 {
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
 	}
-
+	
 	.btn.early-sell {
 		width: 60%;
 		height: 8vw;
@@ -1748,36 +1740,36 @@ span.main-cta {
 		margin-bottom: 20px;
 		color: #ffffff;
 	}
-
+	
 	.btn.early-sell.long {
 		font-size: 3vw;
 		height: 10vw;
 		margin-top: 10px;
-
+		
 	}
-
+	
 	.row.comments {
 		margin-top: 15px;
 	}
-
+	
 	aside.col-sm-8 {
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
-
+	
 	.info_blog.on-mobile {
 		display: block;
 	}
-
+	
 	.info_blog.on-desktop {
 		display: none;
 	}
-
+	
 	span.main-cta {
 		font-size: 24px;
 	}
-
+	
 }
 
 @media all and (max-width:576px) {
@@ -1785,22 +1777,22 @@ span.main-cta {
 		position: relative;
 		margin-top: 0;
 	}
-
+	
 	.container {
 		padding: 0;
 	}
-
+	
 	.container>p {
 		position: absolute;
 		float: none;
 		top: 0;
 		right: 5px;
 	}
-
+	
 	.logo {
 		text-align: center;
 	}
-
+	
 	.logo img {
 		margin: 20px auto;
 		width: 30%;
@@ -1812,7 +1804,7 @@ span.main-cta {
 	aside {
 		display: none;
 	}
-
+	
 	.comments .col-md-7 {
 		flex: 100%;
 		max-width: 100%;
@@ -1833,7 +1825,7 @@ span.main-cta {
 
 @media (max-width: 1999px) {
 	main {
-	  padding-top: 0;
+		padding-top: 0;
 	}
-  }
+}
   

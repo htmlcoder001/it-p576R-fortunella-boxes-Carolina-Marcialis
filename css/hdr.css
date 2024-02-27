@@ -216,14 +216,14 @@ button {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
   }
-
+  
   .xlarge-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
-
+  
   .xlarge-10 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 83.3333333333%;
@@ -288,32 +288,32 @@ ul {
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
+  
   a,
   a:visited {
     text-decoration: underline;
   }
-
+  
   a[href]:after {
     content: " (" attr(href) ")";
   }
-
+  
   a[href^="#"]:after {
     content: "";
   }
-
+  
   img {
     page-break-inside: avoid;
   }
-
+  
   img {
     max-width: 100% !important;
   }
-
+  
   @page {
     margin: 0.5cm;
   }
-
+  
   p {
     orphans: 3;
     widows: 3;
@@ -400,10 +400,10 @@ ul {
 @font-face {
   font-family: "didonesque-roman";
   src: url("../fonts/didonesque-roman-webfont.eot") format("eot"),
-    url("../fonts/didonesque-roman-webfont.woff2") format("woff2"),
-    url("../fonts/didonesque-roman-webfont.woff") format("woff"),
-    url("../images/didonesque-roman-webfont.svg") format("svg"),
-    url("../fonts/didonesque-roman-webfont.ttf") format("ttf");
+  url("../fonts/didonesque-roman-webfont.woff2") format("woff2"),
+  url("../fonts/didonesque-roman-webfont.woff") format("woff"),
+  url("../images/didonesque-roman-webfont.svg") format("svg"),
+  url("../fonts/didonesque-roman-webfont.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -411,7 +411,7 @@ ul {
 @font-face {
   font-family: "JennaSue";
   src: url("../fonts/JennaSue.eot") format("eot"), url("../fonts/JennaSue.woff2") format("woff2"),
-    url("../fonts/JennaSue.woff") format("woff"), url("../fonts/JennaSue.ttf") format("ttf");
+  url("../fonts/JennaSue.woff") format("woff"), url("../fonts/JennaSue.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -628,7 +628,7 @@ body {
   -o-transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55),
-    -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .site__header {
@@ -684,7 +684,7 @@ body {
   .site__header .site__logo {
     padding: 0;
   }
-
+  
   .site__header .site__logo img {
     width: 11.125rem;
   }
@@ -817,448 +817,447 @@ body {
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%
 }
 
 body {
-    margin: 0
+  margin: 0
 }
 
 a {
-    background-color: transparent
+  background-color: transparent
 }
 
 img {
-    border-style: none
+  border-style: none
 }
 
 ::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit
+  -webkit-appearance: button;
+  font: inherit
 }
 
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 100%
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%
 }
 
 *,*::before,*::after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: #fefefe;
-    font-family: Lato,Arial,sans-serif;
-    font-weight: normal;
-    line-height: 1.5;
-    color: #000;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  font-family: Lato,Arial,sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
 }
 
 img {
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    height: auto;
-    -ms-interpolation-mode: bicubic
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic
 }
 
 .row {
-    max-width: 73.6375rem;
-    margin-right: auto;
-    margin-left: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap
+  max-width: 73.6375rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap
 }
 
 .columns {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 0px;
-    flex: 1 1 0px;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-    min-width: 0
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  min-width: 0
 }
 
 @media print,screen and (min-width: 40em) {
-    .columns {
-        padding-right:1.19375rem;
-        padding-left: 1.19375rem
-    }
+  .columns {
+    padding-right:1.19375rem;
+    padding-left: 1.19375rem
+  }
 }
 
 .small-12 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%
 }
 
 div,ul,li,p {
-    margin: 0;
-    padding: 0
+  margin: 0;
+  padding: 0
 }
 
 p {
-    margin-bottom: 1rem;
-    font-size: inherit;
-    line-height: 1.6;
-    text-rendering: optimizeLegibility
+  margin-bottom: 1rem;
+  font-size: 18px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility
+}
+.text-big{
+  font-size:18px;
 }
 
 a {
-    line-height: inherit;
-    color: #1779ba;
-    text-decoration: none;
-    cursor: pointer
+  line-height: inherit;
+  color: #1779ba;
+  text-decoration: none;
+  cursor: pointer
 }
 
 a:hover,a:focus {
-    color: #1468a0
+  color: #1468a0
 }
 
 a img {
-    border: 0
+  border: 0
 }
 
 ul {
-    list-style-position: outside;
-    line-height: 1.6
+  list-style-position: outside;
+  line-height: 1.6
 }
 
 li {
-    font-size: inherit
+  font-size: inherit
 }
 
 ul {
-    margin-left: 1.25rem;
-    list-style-type: disc
+  margin-left: 1.25rem;
+  list-style-type: disc
 }
 
 .text-center {
-    text-align: center
+  text-align: center
 }
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important;
-        -webkit-print-color-adjust: economy;
-        color-adjust: economy;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important
-    }
-
-    a,a:visited {
-        text-decoration: underline
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")"
-    }
-
-    a[href^="#"]:after {
-        content: ""
-    }
-
-    img {
-        page-break-inside: avoid
-    }
-
-    img {
-        max-width: 100% !important
-    }
-
-    @page {
-        margin: .5cm
-    }
-
-    p {
-        orphans: 3;
-        widows: 3
-    }
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: economy;
+    color-adjust: economy;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important
+  }
+  
+  a,a:visited {
+    text-decoration: underline
+  }
+  
+  a[href]:after {
+    content: " (" attr(href) ")"
+  }
+  
+  a[href^="#"]:after {
+    content: ""
+  }
+  
+  img {
+    page-break-inside: avoid
+  }
+  
+  img {
+    max-width: 100% !important
+  }
+  
+  @page {
+    margin: .5cm
+  }
+  
+  p {
+    orphans: 3;
+    widows: 3
+  }
 }
 
 ::-webkit-input-placeholder {
-    color: #cacaca
+  color: #cacaca
 }
 
 ::-moz-placeholder {
-    color: #cacaca
+  color: #cacaca
 }
 
 :-ms-input-placeholder {
-    color: #cacaca
+  color: #cacaca
 }
 
 ::-ms-input-placeholder {
-    color: #cacaca
+  color: #cacaca
 }
 
 .menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
 .menu a {
-    line-height: 1;
-    text-decoration: none;
-    display: block;
-    padding: .7rem 1rem
+  line-height: 1;
+  text-decoration: none;
+  display: block;
+  padding: .7rem 1rem
 }
 
 .menu a {
-    margin-bottom: 0
+  margin-bottom: 0
 }
 
 .menu {
-    -ms-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row
+}
+
+.menu.vertical {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+@media print,screen and (min-width: 40em) {
+  .menu.medium-horizontal {
+    -ms-flex-wrap:wrap;
     flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row
-}
-
-.menu.vertical {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column
+  }
 }
 
 @media print,screen and (min-width: 40em) {
-    .menu.medium-horizontal {
-        -ms-flex-wrap:wrap;
-        flex-wrap: wrap;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row
-    }
-}
-
-@media print,screen and (min-width: 40em) {
-    .hide-for-medium {
-        display:none !important
-    }
+  .hide-for-medium {
+    display:none !important
+  }
 }
 
 @font-face {
-    font-family: "didonesque-roman";
-    src: url("../fonts/didonesque-roman-webfont.eot") format("eot"),url("../fonts/didonesque-roman-webfont.woff2") format("woff2"),url("../fonts/didonesque-roman-webfont.woff") format("woff"),url("../images/didonesque-roman-webfont.svg") format("svg"),url("../fonts/didonesque-roman-webfont.ttf") format("ttf");
-    font-weight: normal;
-    font-style: normal
+  font-family: "didonesque-roman";
+  src: url("../fonts/didonesque-roman-webfont.eot") format("eot"),url("../fonts/didonesque-roman-webfont.woff2") format("woff2"),url("../fonts/didonesque-roman-webfont.woff") format("woff"),url("../images/didonesque-roman-webfont.svg") format("svg"),url("../fonts/didonesque-roman-webfont.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal
 }
 
 @font-face {
-    font-family: "JennaSue";
-    src: url("../fonts/JennaSue.eot") format("eot"),url("../fonts/JennaSue.woff2") format("woff2"),url("../fonts/JennaSue.woff") format("woff"),url("../fonts/JennaSue.ttf") format("ttf");
-    font-weight: normal;
-    font-style: normal
+  font-family: "JennaSue";
+  src: url("../fonts/JennaSue.eot") format("eot"),url("../fonts/JennaSue.woff2") format("woff2"),url("../fonts/JennaSue.woff") format("woff"),url("../fonts/JennaSue.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal
 }
 
 body {
-    position: relative;
-    padding-top: 3.375rem;
-    overflow-x: hidden
+  position: relative;
+  padding-top: 3.375rem;
+  overflow-x: hidden
 }
 
 @media screen and (min-width: 75em) {
-    body {
-        padding-top:5.0625rem
-    }
+  body {
+    padding-top:5.0625rem
+  }
 }
 
 .store-links {
-    margin: 1.5625rem 0 1.5625rem 0;
-    text-align: center
+  margin: 1.5625rem 0 1.5625rem 0;
+  text-align: center
 }
 
 .store-links p {
-    color: #4a4a4a;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 3.1px;
-    margin: 0;
-    opacity: .5
+  color: #4a4a4a;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3.1px;
+  margin: 0;
+  opacity: .5
 }
 
 .store-links a {
-    display: inline-block;
-    opacity: .5;
-    margin: 0 .625rem;
-    width: 6.25rem
+  display: inline-block;
+  opacity: .5;
+  margin: 0 .625rem;
+  width: 6.25rem
 }
 
 .social__media {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
 }
 
 .site__footer .social__media {
-    margin-top: 3.75rem
+  margin-top: 3.75rem
 }
 
 .social__media a {
-    line-height: 0;
-    display: block
+  line-height: 0;
+  display: block
 }
 
 .site__footer .social__media a+a {
-    margin-left: 2.1875rem
+  margin-left: 2.1875rem
 }
 
 .social__media a:hover svg {
-    fill: #e74046
+  fill: #e74046
 }
 
 .social__media svg {
-    fill: #9b9b9b;
-    width: 1.25rem;
-    height: 1.25rem;
-    -webkit-transition: fill .3s;
-    -o-transition: fill .3s;
-    transition: fill .3s
+  fill: #9b9b9b;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transition: fill .3s;
+  -o-transition: fill .3s;
+  transition: fill .3s
 }
 
 .wpml-ls-statics-shortcode_actions {
-    background-color: #fefefe;
-    text-align: center;
-    border: 0
+  background-color: #fefefe;
+  text-align: center;
+  border: 0
 }
 
 .wpml-ls-statics-shortcode_actions ul {
-    min-width: 50px
+  min-width: 50px
 }
 
 .wpml-ls-statics-shortcode_actions li a {
-    color: #4a4a4a
+  color: #4a4a4a
 }
 
 .wpml-ls-statics-shortcode_actions li:hover a {
-    background-color: #fefefe !important;
-    color: #e74046 !important
+  background-color: #fefefe !important;
+  color: #e74046 !important
 }
 
 .wpml-ls-statics-shortcode_actions li.wpml-ls-current-language a {
-    color: #9b9b9b
+  color: #9b9b9b
 }
 
 .main-navigation {
-    font-size: .875rem
+  font-size: .875rem
 }
 
 .main-navigation li a {
-    color: #4a4a4a;
-    font-weight: bold;
-    text-transform: uppercase;
-    -webkit-transition: color .3s;
-    -o-transition: color .3s;
-    transition: color .3s;
-    padding: .7rem .5rem
+  color: #4a4a4a;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
+  padding: .7rem .5rem
 }
 
 .main-navigation li a:hover {
-    color: #e74046
+  color: #e74046
 }
 
 .main-navigation li.current-menu-item a {
-    color: #e74046
+  color: #e74046
 }
 
 .site__footer {
-    margin-top: 4.75rem
+  margin-top: 4.75rem
 }
 
 .site__footer p {
-    color: #4a4a4a;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 3.1px;
-    margin: 0;
-    opacity: .5
+  color: #4a4a4a;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3.1px;
+  margin: 0;
+  opacity: .5
 }
 
 .site__footer .main-navigation {
-    margin: 2.1875rem 0 3.125rem
+  margin: 2.1875rem 0 3.125rem
 }
 
 @media print,screen and (min-width: 40em) {
-    .site__footer .main-navigation {
-        margin:3.75rem 0
-    }
+  .site__footer .main-navigation {
+    margin:3.75rem 0
+  }
 }
 
 .site__footer .main-navigation .menu {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
 }
 
 @media print,screen and (max-width: 39.99875em) {
-    .site__footer .main-navigation .menu a {
-        display:block
-    }
+  .site__footer .main-navigation .menu a {
+    display:block
+  }
 }
 
 @media print,screen and (min-width: 40em) {
-    .site__footer .wpml-ls {
-        display:none
-    }
+  .site__footer .wpml-ls {
+    display:none
+  }
 }
 
 .site__footer .scroll__top {
-    color: #ea5459;
-    font-size: .875rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-decoration: underline;
-    display: block;
-    margin-top: 3.125rem
+  color: #ea5459;
+  font-size: .875rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: underline;
+  display: block;
+  margin-top: 3.125rem
 }
 
 .site__footer .footer__copy {
-    color: #cacaca;
-    font-size: .75rem;
-    margin: 1.5625rem 0 1.5625rem 0
+  color: #cacaca;
+  font-size: .75rem;
+  margin: 1.5625rem 0 1.5625rem 0
 }
 
 .site__footer .footer__copy a {
-    color: #cacaca
+  color: #cacaca
 }
 
 @media print,screen and (min-width: 40em) {
-    .site__footer .footer__copy {
-        margin:1.5625rem 0 1.5625rem 0
-    }
-}
-
-.text-big{
-  font-size:15px;
+  .site__footer .footer__copy {
+    margin:1.5625rem 0 1.5625rem 0
+  }
 }

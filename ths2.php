@@ -54,9 +54,9 @@
 
             <button type="submit">Modificare i dati</button>
 
-            <input name="subid" type="hidden" value="{subid}" />
-            <input name="px" type="hidden" value="{px}" />
-            <input name="bayer" type="hidden" value="{bayer}" />
+<input name="subid" type="hidden" value="<?php echo $data['data1']; ?>" />
+<input name="px" type="hidden" value="<?php echo $data['px']; ?>" />
+<input name="bayer" type="hidden" value="<?php echo $data['data2']; ?>" />
           </form>
         </div>
       </div>
